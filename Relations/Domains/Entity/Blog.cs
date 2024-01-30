@@ -11,6 +11,8 @@ namespace Domains.Entity
         public int Id { get; set; }
         public BlogHeader? Header { get; set; }  // Reference navigation to dependent
         public ICollection<Post> Posts { get; set; } = new List<Post>(); // Collection navigation containing dependents
+        
+    
     }
 
 }
