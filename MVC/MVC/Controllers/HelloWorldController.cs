@@ -8,9 +8,9 @@ namespace MVC.Controllers
     {
         //https://localhost:5001/HelloWorld.
         // GET: /HelloWorld/
-        public string Index()
+        public IActionResult Index()
         {
-            return "This is my default project...";
+            return View();
         }
 
         // GET: /HelloWorld/Welcome/ 
