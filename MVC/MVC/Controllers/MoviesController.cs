@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using MVC.Data;
 using MVC.Models;
 
-namespace MVC
+namespace MVC.Controllers
 {
     public class MoviesController : Controller
     {
