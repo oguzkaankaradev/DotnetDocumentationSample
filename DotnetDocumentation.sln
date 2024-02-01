@@ -13,6 +13,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MVC", "MVC", "{FF2DA7F2-C55
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MVC", "MVC\MVC\MVC.csproj", "{963D009D-0F43-4B25-8F82-B9CBB841A69F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ExploreCalifornia", "ExploreCalifornia", "{933595DF-5E15-49E6-B48D-7BC246E8B09C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExploreCalifornia", "ExploreCalifornia\ExploreCalifornia\ExploreCalifornia.csproj", "{6F438A87-E46A-4CD6-9261-0FCFA4ABF62B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,10 @@ Global
 		{963D009D-0F43-4B25-8F82-B9CBB841A69F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{963D009D-0F43-4B25-8F82-B9CBB841A69F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{963D009D-0F43-4B25-8F82-B9CBB841A69F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F438A87-E46A-4CD6-9261-0FCFA4ABF62B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F438A87-E46A-4CD6-9261-0FCFA4ABF62B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F438A87-E46A-4CD6-9261-0FCFA4ABF62B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F438A87-E46A-4CD6-9261-0FCFA4ABF62B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -35,6 +43,7 @@ Global
 		{D0676B9B-F6F4-4C20-8180-B1E01E4BFA33} = {BDBB0514-A422-4DA1-ACED-F3C68272D754}
 		{1712F6C9-FFA0-4A11-805C-7B9D5CCCC1F9} = {BDBB0514-A422-4DA1-ACED-F3C68272D754}
 		{963D009D-0F43-4B25-8F82-B9CBB841A69F} = {FF2DA7F2-C551-4268-ADF2-4C3D8354E4D2}
+		{6F438A87-E46A-4CD6-9261-0FCFA4ABF62B} = {933595DF-5E15-49E6-B48D-7BC246E8B09C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FE999F62-42F3-415D-B134-3FAC3E8B79E2}
