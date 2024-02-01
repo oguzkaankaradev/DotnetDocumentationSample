@@ -29,7 +29,7 @@ namespace MVC.Controllers
         {
             if (_context.Movie == null)
             {
-                return Problem("Entity set 'MVCContext.Movie' is null")
+                return Problem("Entity set 'MVCContext.Movie' is null");
             }
 
             var movies = from m in _context.Movie select m;
