@@ -25,6 +25,7 @@ namespace MVC.Controllers
         //    return View(await _context.Movie.ToListAsync());
         //}
 
+        [HttpPost]
         public async Task<IActionResult> Index(string searchString)
         {
             if (_context.Movie == null)
