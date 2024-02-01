@@ -7,11 +7,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Relations", "Relations", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Entity", "Entity", "{D0676B9B-F6F4-4C20-8180-B1E01E4BFA33}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domains", "Relations\Domains\Domains.csproj", "{1712F6C9-FFA0-4A11-805C-7B9D5CCCC1F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domains", "Relations\Domains\Domains.csproj", "{1712F6C9-FFA0-4A11-805C-7B9D5CCCC1F9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MVC", "MVC", "{FF2DA7F2-C551-4268-ADF2-4C3D8354E4D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC", "MVC\MVC\MVC.csproj", "{963D009D-0F43-4B25-8F82-B9CBB841A69F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MVC", "MVC\MVC\MVC.csproj", "{963D009D-0F43-4B25-8F82-B9CBB841A69F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

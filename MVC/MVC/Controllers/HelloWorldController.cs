@@ -15,9 +15,16 @@ namespace MVC.Controllers
 
         // GET: /HelloWorld/Welcome/ 
 
-        public string Welcome()
+        //public string Welcome()
+        //{
+        //    return "This is the welcome action method...";
+        //}
+
+        public IActionResult Welcome(string name, int numTimes =1)
         {
-            return "This is the welcome action method...";
+            ViewData["Message"] = "Hello" + name;
+            ViewData["NumTimes"] = numTimes;
+            return View();
         }
 
         // GET: /HelloWorld/Welcome/ 
