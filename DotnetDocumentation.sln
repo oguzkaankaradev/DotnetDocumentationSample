@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MVC", "MVC\MVC\MVC.csproj",
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ExploreCalifornia", "ExploreCalifornia", "{933595DF-5E15-49E6-B48D-7BC246E8B09C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExploreCalifornia", "ExploreCalifornia\ExploreCalifornia\ExploreCalifornia.csproj", "{6F438A87-E46A-4CD6-9261-0FCFA4ABF62B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExploreCalifornia", "ExploreCalifornia\ExploreCalifornia\ExploreCalifornia.csproj", "{6F438A87-E46A-4CD6-9261-0FCFA4ABF62B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControllerDI", "ControllerDI\ControllerDI.csproj", "{15E053F2-1287-4C42-B37F-6EC061B4078E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +37,10 @@ Global
 		{6F438A87-E46A-4CD6-9261-0FCFA4ABF62B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6F438A87-E46A-4CD6-9261-0FCFA4ABF62B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6F438A87-E46A-4CD6-9261-0FCFA4ABF62B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15E053F2-1287-4C42-B37F-6EC061B4078E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15E053F2-1287-4C42-B37F-6EC061B4078E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15E053F2-1287-4C42-B37F-6EC061B4078E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15E053F2-1287-4C42-B37F-6EC061B4078E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,6 +50,7 @@ Global
 		{1712F6C9-FFA0-4A11-805C-7B9D5CCCC1F9} = {BDBB0514-A422-4DA1-ACED-F3C68272D754}
 		{963D009D-0F43-4B25-8F82-B9CBB841A69F} = {FF2DA7F2-C551-4268-ADF2-4C3D8354E4D2}
 		{6F438A87-E46A-4CD6-9261-0FCFA4ABF62B} = {933595DF-5E15-49E6-B48D-7BC246E8B09C}
+		{15E053F2-1287-4C42-B37F-6EC061B4078E} = {FF2DA7F2-C551-4268-ADF2-4C3D8354E4D2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FE999F62-42F3-415D-B134-3FAC3E8B79E2}
