@@ -26,7 +26,7 @@ namespace MVC.Controllers
         public IActionResult About()
         {
             ViewData["Message"] = "Your application description page.";
-            return View();
+            return View("Views/Home/About.cshtml");
         }
 
 

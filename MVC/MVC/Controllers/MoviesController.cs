@@ -42,6 +42,7 @@ namespace MVC.Controllers
 
         //    return View( await movies.ToListAsync());
         //}
+     
 
         public async Task<IActionResult> Index(string movieGenre, string searchString)
         {
