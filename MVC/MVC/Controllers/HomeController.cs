@@ -29,6 +29,22 @@ namespace MVC.Controllers
             return View("Views/Home/About.cshtml");
         }
 
+        public IActionResult Contact()
+        {
+            ViewData["Message"] = "Your contact page.";
+
+            var viewModel = new Address()
+            {
+                Name = "Microsoft",
+                Street = "One Microsoft Way",
+                City = "Redmond",
+                State = "WA",
+                PostalCode = "98052-6399"
+            };
+
+            return View(viewModel);
+        }
+
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
