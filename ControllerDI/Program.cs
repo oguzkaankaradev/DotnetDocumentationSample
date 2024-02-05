@@ -1,5 +1,12 @@
+using ControllerDI.Interfaces;
+using ControllerDI.Models;
+using ControllerDI.Services;
+
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddSingleton<IDateTime, SystemDateTime>();
+builder.Services.Configure<SampleWebSettings>(builder.Configuration);
+ 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
