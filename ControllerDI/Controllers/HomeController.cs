@@ -15,7 +15,7 @@ namespace ControllerDI.Controllers
             _logger = logger;
             _dateTime = dateTime;
         }
-
+          
         public IActionResult Index()
         {
             var serverTime = _dateTime.Now;
